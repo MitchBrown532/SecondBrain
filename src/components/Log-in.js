@@ -20,6 +20,8 @@ function Login() {
 
     const onLoginFailure = (res) => {
         console.log('Login Failed:', res);
+        alert("You have been logged in successfully")
+        history.push("/home")
     };
 
     const onSignoutSuccess = () => {
