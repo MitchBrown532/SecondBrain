@@ -1,0 +1,276 @@
+/* Main Elements */
+*{ 
+  /* asterics selects everything*/
+  /* This case is for removing all basic styling of the browser */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: linear-gradient(120deg, #0f0f0f, #221e1e);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+}
+
+header{
+  font-size: 1.5rem;
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+
+/* Position classes */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Specific Elements */
+.search-btn,
+.back-btn{
+  color: #0f0f0f;
+  text-align: center;
+  font-size: 1rem;
+  border: none;
+  background: white;
+  min-height: 5vh;
+  width: 15%;
+  transition: all 0.3s ease;
+}
+.search-btn:hover,
+.back-btn:hover{
+  background: rgb(196, 191, 191);
+}
+
+/*hard coded positions: MUST fix*/
+.back-btn{
+  position: absolute;
+  left:0;
+  top: 7.5%;
+  
+}
+.search-btn{
+  position:absolute;
+  right:0;
+  top:7.5%;
+}
+
+.fa-brain{
+  margin-right: 2vh;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.fa-brain:hover{
+  color: purple;
+}
+
+.general-info{
+  margin-top: 10%;
+  padding: 5%;
+  font-size: 0.5 rem;
+}
+
+.footer {
+  position: fixed;
+  bottom:0;
+  width: 100%;
+  height:5vh;   /* Height of the footer */
+  background:rgb(76, 76, 77);  
+}
+
+.footer-btn{
+  padding: 0.5rem;
+  display: inline;
+  width: 33.3%;
+  height:5vh;
+}
+.footer-btn:hover{
+  background: rgb(196, 191, 191);
+}
+
+
+.logIn-btn{
+  color: #0f0f0f;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 650;
+  border: none;
+  background: white;
+  min-height: 15vh;
+  width: 40%;
+  transition: all 0.3s ease;
+  margin-top: 3vh;
+  text-decoration: none;
+}
+.logIn-btn:hover{
+  background: rgb(107, 39, 109);
+}
+
+.nav-btn{
+  display: inline;
+  color: #0f0f0f;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 650;
+  border: none;
+  background: white;
+  height: 10%;
+  width: 40%;
+  padding: 5%;
+  margin-bottom: 5%;
+}
+.nav-btn:hover{
+  background: rgb(107, 39, 109);
+}
+
+
+.action-btn{
+  color: #0f0f0f;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 2rem;
+  border: none;
+  background: purple;
+  min-height: 5vh;
+}
+
+.main-page {
+  height: fit-content;
+}
+
+
+
+/* 
+header,
+form{
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form input, 
+form button{
+  padding: 0.5rem;
+  font-size: 2rem;
+  border: none;
+  background: white;
+}
+
+form button{
+  color: #a23da5;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+form button:hover {
+  background: #a23da5;
+  color: white;
+}
+
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-list {
+  min-width: 30%;
+  list-style: none;
+}
+
+.todo {
+  margin: 0.5rem;
+  background: white;
+  color: black;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+
+.todo li{
+  flex: 1;
+}
+
+.trash-btn,
+.complete-btn{
+  background: #a23da5;
+  color: white;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.complete-btn{
+  background: rgb(107, 107, 107);
+}
+
+.todo-item {
+  padding: 0rem, 0.5rem;
+}
+
+.fa-trash, 
+.fa-check{
+  pointer-events: none;
+}
+
+.completed{
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.fall{
+  transform: translateY(8rem) rotateZ(20deg);
+  opacity: 0;
+}
+
+select { 
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  border: none;
+}
+
+.select { 
+  margin: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+select {
+  color: #a23da5;
+  width: 10rem;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.select::after {
+  content: "\25BC";
+  position: absolute;
+  background: #a23da5;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+.select:hover::after{
+  background: white;
+  color: #a23da5;
+} */
