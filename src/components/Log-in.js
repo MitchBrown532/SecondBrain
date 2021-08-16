@@ -20,7 +20,7 @@ function Login() {
 
     const onLoginFailure = (res) => {
         console.log('Login Failed:', res);
-        alert("You have been logged in successfully")
+        alert("Google Log-in API does not work properly given security issues with this hosting app")
         history.push("/home")
     };
 
